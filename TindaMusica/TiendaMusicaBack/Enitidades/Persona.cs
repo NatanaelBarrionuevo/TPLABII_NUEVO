@@ -77,6 +77,11 @@ namespace TiendaMusicaBack.Enitidades
             Email = string.Empty;
         }
 
+        public override string ToString()
+        {
+            return $"{Apellido}, {Nombre}";
+        }
+
 
     }
 }

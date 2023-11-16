@@ -64,5 +64,34 @@ namespace TiendaMusicaBack.Datos.Implementacion
 
             return null;
         }
+
+
+
+        public List<Cliente> ConsultarCliente()
+        {
+            
+            List<Parametro> parametros = new List<Parametro>();
+            string sp = "SP_GET_CLIENTE";
+
+
+            DataTable tabla = HelperDB.ObtenerInstancia().ConsultaSQL(sp, parametros);
+
+
+            List<Cliente> lista = new List<Cliente>();
+            if (tabla.Rows.Count > 0)
+            {
+                foreach (DataRow row in tabla.Rows)
+                {
+                    
+                    lista.Add(new Cliente(row["APELLIDO"].ToString(), row["NOMBRE"].ToString(), new Barrio(), Convert.ToInt32(row["ID_CLIENTE"])));
+                }
+
+                return lista;
+            }
+
+            return null;
+        }
+
     }
-}
+    }
+

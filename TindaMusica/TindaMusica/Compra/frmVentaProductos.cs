@@ -21,11 +21,13 @@ namespace TindaMusica.Venta
     public partial class frmVentaProductos : Form
     {
         List<DetaleFactura> detalleFactura;
+        Factura factura;
         IProductoDao productoDao;
-        public frmVentaProductos()
+        public frmVentaProductos(Factura factura )
         {
             InitializeComponent();
-            detalleFactura = new List<DetaleFactura>();
+            this.factura = factura;
+            this.detalleFactura = factura.DetaleFactura;
             productoDao = new ProductoDao();
         }
 
@@ -55,12 +57,20 @@ namespace TindaMusica.Venta
             {
                 CargarDetalle(prod);
                 ActualizarDgv();
+                ActualizarTotal();
+
             }
-            
-         
 
 
 
+
+
+        }
+
+        private void ActualizarTotal()
+        {
+
+            lblTotal.Text = factura.TotalProductos().ToString();
         }
 
         private void ActualizarDgv()
@@ -71,10 +81,14 @@ namespace TindaMusica.Venta
                 dataGridView1.Rows.Add(new object[] {
 
                     det.Product.Id,
+                    det.Product.Tipo_prod.Tipo,
                     det.Product.Nombre,
                     det.Precio,
-                    det.Product.Tipo_prod.Tipo,
-                    det.Cantidad
+
+                    det.Cantidad,
+
+                    det.Precio * det.Cantidad
+
                     });
 
             }
@@ -86,7 +100,8 @@ namespace TindaMusica.Venta
         private void CargarDetalle(Producto prod)
         {
             bool existe = false;
-            if (prod !=null) {
+            if (prod != null)
+            {
                 foreach (DetaleFactura det in detalleFactura)
                 {
                     if (prod.Id == det.Product.Id)
@@ -106,7 +121,7 @@ namespace TindaMusica.Venta
                     });
                 }
             }
-            
+
 
         }
 
@@ -121,6 +136,11 @@ namespace TindaMusica.Venta
         }
 
         public List<DetaleFactura> GetDetaleFacturaList() { return detalleFactura; }
+
+        private void txtCodigo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

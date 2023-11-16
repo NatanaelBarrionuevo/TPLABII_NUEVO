@@ -10,3 +10,15 @@ E:\Lucas\TUP\Tecnicatura en Prog - 2023\Laboratorio II\TPLABII\TindaMusica\Tiend
 E:\Lucas\TUP\Tecnicatura en Prog - 2023\Laboratorio II\TPLABII\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\refint\TiendaMusicaBack.dll
 E:\Lucas\TUP\Tecnicatura en Prog - 2023\Laboratorio II\TPLABII\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.pdb
 E:\Lucas\TUP\Tecnicatura en Prog - 2023\Laboratorio II\TPLABII\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\ref\TiendaMusicaBack.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.deps.json
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.pdb
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.csproj.AssemblyReference.cache
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.AssemblyInfoInputs.cache
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.AssemblyInfo.cs
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.csproj.CoreCompileInputs.cache
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\refint\TiendaMusicaBack.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.pdb
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\ref\TiendaMusicaBack.dll

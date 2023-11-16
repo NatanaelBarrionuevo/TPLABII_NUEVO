@@ -38,7 +38,7 @@
             btnSiguiente.Location = new Point(586, 617);
             btnSiguiente.Margin = new Padding(3, 4, 3, 4);
             btnSiguiente.Name = "btnSiguiente";
-            btnSiguiente.Size = new Size(75, 29);
+            btnSiguiente.Size = new Size(85, 29);
             btnSiguiente.TabIndex = 0;
             btnSiguiente.Text = "Siguiente";
             btnSiguiente.UseVisualStyleBackColor = true;
@@ -51,7 +51,7 @@
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(75, 29);
             btnCancelar.TabIndex = 1;
-            btnCancelar.Text = "Cancelar";
+            btnCancelar.Text = "Anterior";
             btnCancelar.UseVisualStyleBackColor = true;
             btnCancelar.Click += btnCancelar_Click;
             // 

@@ -12,5 +12,6 @@ namespace TiendaMusicaBack.Datos.Interfaz
         bool CargarEmpleado(Empleado oEmpleado);
         List<Puesto> ConsultarPuestos();
         List<Sede> ConsultarSedes();
+        List<Empleado> GetEmpoleadosPorSede(Sede sede);
     }
 }

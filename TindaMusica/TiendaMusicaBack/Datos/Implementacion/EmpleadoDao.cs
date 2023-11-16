@@ -94,5 +94,33 @@ namespace TiendaMusicaBack.Datos.Implementacion
 
             return null;
         }
+
+        public List<Empleado> GetEmpoleadosPorSede(Sede sede)
+        {
+            
+            List<Parametro> parametros = new List<Parametro>()
+            {
+                new Parametro("@SEDE", sede.Id.ToString())
+            };
+            string sp = "SP_GET_EMPLEADO_X_SEDE";
+
+
+            DataTable tabla = HelperDB.ObtenerInstancia().ConsultaSQL(sp, parametros);
+
+
+            List<Empleado> lista = new List<Empleado>();
+            if (tabla.Rows.Count > 0)
+            {
+                foreach (DataRow row in tabla.Rows)
+                {
+                   
+                    lista.Add(new Empleado(row["APELLIDO"].ToString(), row["NOMBRE"].ToString(), Convert.ToInt32(row["LEGAJO"]), System.DateTime.Now));
+                }
+
+                return lista;
+            }
+
+            return null;
+        }
     }
 }

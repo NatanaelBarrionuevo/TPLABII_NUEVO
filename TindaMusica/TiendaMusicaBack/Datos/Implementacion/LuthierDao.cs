@@ -16,7 +16,7 @@ namespace TiendaMusicaBack.Datos.Implementacion
         {
             List<Luthier> luthiers = new List<Luthier>();
 
-            string sp = "SP_CONSULTAR_LUTHIERS";
+            string sp = "SP_GET_LUTHIERS";
 
 
             DataTable tabla = HelperDB.ObtenerInstancia().ConsultaSQL(sp, null);

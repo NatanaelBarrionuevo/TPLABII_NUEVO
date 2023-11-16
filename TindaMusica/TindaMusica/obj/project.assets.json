@@ -488,19 +488,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vivib\\.nuget\\packages\\": {}
+    "C:\\Users\\Luca's pc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vivib\\Desktop\\TP_LABII\\TPLABII\\TindaMusica\\TindaMusica\\TiendaMusica.csproj",
+      "projectUniqueName": "C:\\Users\\Luca's pc\\Desktop\\TPLABII_NUEVO\\TindaMusica\\TindaMusica\\TiendaMusica.csproj",
       "projectName": "TiendaMusica",
-      "projectPath": "C:\\Users\\vivib\\Desktop\\TP_LABII\\TPLABII\\TindaMusica\\TindaMusica\\TiendaMusica.csproj",
-      "packagesPath": "C:\\Users\\vivib\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vivib\\Desktop\\TP_LABII\\TPLABII\\TindaMusica\\TindaMusica\\obj\\",
+      "projectPath": "C:\\Users\\Luca's pc\\Desktop\\TPLABII_NUEVO\\TindaMusica\\TindaMusica\\TiendaMusica.csproj",
+      "packagesPath": "C:\\Users\\Luca's pc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Luca's pc\\Desktop\\TPLABII_NUEVO\\TindaMusica\\TindaMusica\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\vivib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Luca's pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -514,8 +519,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\vivib\\Desktop\\TP_LABII\\TPLABII\\TindaMusica\\TiendaMusicaBack\\TiendaMusicaBack.csproj": {
-              "projectPath": "C:\\Users\\vivib\\Desktop\\TP_LABII\\TPLABII\\TindaMusica\\TiendaMusicaBack\\TiendaMusicaBack.csproj"
+            "C:\\Users\\Luca's pc\\Desktop\\TPLABII_NUEVO\\TindaMusica\\TiendaMusicaBack\\TiendaMusicaBack.csproj": {
+              "projectPath": "C:\\Users\\Luca's pc\\Desktop\\TPLABII_NUEVO\\TindaMusica\\TiendaMusicaBack\\TiendaMusicaBack.csproj"
             }
           }
         }
@@ -548,7 +553,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

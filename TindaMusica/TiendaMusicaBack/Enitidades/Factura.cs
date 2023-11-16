@@ -15,8 +15,33 @@ namespace TiendaMusicaBack.Enitidades
         public FormaPago Metodo { get; set; }
         public Sede Sede { get; set; }
         public MetodoEnvio Envio{ get; set; }
-        public DetaleFactura DetaleFactura { get; set; }
-        public DetalleServicio DetalleServicio { get; set; }
+        public List<DetaleFactura> DetaleFactura { get; set; }
+        public List<DetalleServicio> DetalleServicio { get; set; }
+
+
+        public double TotalProductos()
+        {
+            double total = 0;
+            foreach (DetaleFactura det in DetaleFactura)
+            {
+                total += det.Precio * det.Cantidad;
+            }
+            return total;
+
+        }
+
+        public double TotalServicios()
+        {
+            double total = 0;
+            foreach (DetalleServicio det in DetalleServicio)
+            {
+                total += det.PrecioPorHora * det.CantHoras;
+            }
+            return total;
+
+        }
+
+        public double Total() { return TotalServicios() + TotalProductos(); }
 
     }
 }

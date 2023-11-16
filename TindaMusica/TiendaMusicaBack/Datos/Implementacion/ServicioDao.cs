@@ -16,7 +16,7 @@ namespace TiendaMusicaBack.Datos.Implementacion
         {
             List<TipoServicio> servicios = new List<TipoServicio>();
             
-            string sp = "SP_CONSULTAR_TIPO_SERVICIOS";
+            string sp = "SP_GET_TIPO_SERVICIOS";
             
 
             DataTable tabla = HelperDB.ObtenerInstancia().ConsultaSQL(sp, null);

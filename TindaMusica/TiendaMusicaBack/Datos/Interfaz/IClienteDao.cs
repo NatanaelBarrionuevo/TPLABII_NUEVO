@@ -11,5 +11,6 @@ namespace TiendaMusicaBack.Datos.Interfaz
     {
         bool CargarCliente(Cliente oCliente);
         List<Barrio> ConsultarBarrios();
+        List<Cliente> ConsultarCliente();
     }
 }

@@ -10,7 +10,7 @@ namespace PresupuestosBack.Datos
 
         private HelperDB()
         {
-            cnn = new SqlConnection("Data Source = localhost; Initial Catalog = TIENDA_MUSICA_V13; User ID = sa; Password = test");
+            cnn = new SqlConnection("Data Source = localhost; Initial Catalog = TIENDA_MUSICA_V14; User ID = sa; Password = test");
         }
 
         public static HelperDB ObtenerInstancia()
@@ -39,7 +39,10 @@ namespace PresupuestosBack.Datos
             return tabla;
         }
 
-
+        public SqlConnection GetConnection()
+        {
+            return cnn;
+        }
 
         public int EjecutarSQL(string strSql, List<Parametro> values)
         {
