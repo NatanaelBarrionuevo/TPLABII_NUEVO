@@ -115,6 +115,7 @@
             Controls.Add(gbProductos);
             Name = "ConsultaProductos";
             Text = "ConsultaProductos";
+            Load += ConsultaProductos_Load;
             gbProductos.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvProductos).EndInit();
             ResumeLayout(false);

@@ -12,6 +12,7 @@ namespace TiendaMusicaBack.Enitidades
 		private string nombre;
 		private string descripcion;
 		private TipoCaracteristica tipo_prod;
+		public TipoProducto TipoProducto { get; set; }
 		private Marca marca;
 		private Proveedor proveedor;
 		private Pais pais;

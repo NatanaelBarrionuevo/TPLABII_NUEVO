@@ -127,6 +127,7 @@
             btnCargar.TabIndex = 27;
             btnCargar.Text = "Cargar";
             btnCargar.UseVisualStyleBackColor = true;
+            btnCargar.Click += btnCargar_Click;
             // 
             // btnAtras
             // 

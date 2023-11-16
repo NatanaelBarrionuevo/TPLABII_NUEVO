@@ -16,7 +16,6 @@ namespace TiendaMusicaBack.Datos.Implementacion
         {
             List<Parametro> parametros = new List<Parametro>()
             {
-                new Parametro("@ID_CLIENTE", oCliente.Id),
                 new Parametro("@NOMBRE", oCliente.Nombre),
                 new Parametro("@APELLIDO", oCliente.Apellido),
                 new Parametro("@ID_BARRIO", oCliente.Barrio.Id),
@@ -69,7 +68,7 @@ namespace TiendaMusicaBack.Datos.Implementacion
 
         public List<Cliente> ConsultarCliente()
         {
-            
+
             List<Parametro> parametros = new List<Parametro>();
             string sp = "SP_GET_CLIENTE";
 
@@ -82,7 +81,7 @@ namespace TiendaMusicaBack.Datos.Implementacion
             {
                 foreach (DataRow row in tabla.Rows)
                 {
-                    
+
                     lista.Add(new Cliente(row["APELLIDO"].ToString(), row["NOMBRE"].ToString(), new Barrio(), Convert.ToInt32(row["ID_CLIENTE"])));
                 }
 

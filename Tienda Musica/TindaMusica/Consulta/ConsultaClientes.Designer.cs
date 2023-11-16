@@ -104,6 +104,7 @@
             Controls.Add(gbClientes);
             Name = "ConsultaClientes";
             Text = "ConsultaClientes";
+            Load += ConsultaClientes_Load;
             gbClientes.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvClientes).EndInit();
             ResumeLayout(false);

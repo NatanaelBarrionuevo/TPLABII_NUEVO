@@ -61,5 +61,11 @@ namespace TiendaMusicaBack.Enitidades
             Fecha_ingreso = fecha_ingreso;
 
         }
+        public Empleado(string apellido, string nombre, DateTime fecha_ingreso) : base(apellido, nombre)
+        {
+            
+            Fecha_ingreso = fecha_ingreso;
+
+        }
     }
 }

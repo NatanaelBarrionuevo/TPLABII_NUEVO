@@ -31,7 +31,7 @@
             btnCargar = new Button();
             btnAtras = new Button();
             gbTelefono = new GroupBox();
-            textBox2 = new TextBox();
+            txtTelefono = new TextBox();
             gbNombre = new GroupBox();
             txtNombre = new TextBox();
             gbApellido = new GroupBox();
@@ -55,6 +55,7 @@
             btnCargar.TabIndex = 25;
             btnCargar.Text = "Cargar";
             btnCargar.UseVisualStyleBackColor = true;
+            btnCargar.Click += btnCargar_Click;
             // 
             // btnAtras
             // 
@@ -64,10 +65,11 @@
             btnAtras.TabIndex = 24;
             btnAtras.Text = "Atras";
             btnAtras.UseVisualStyleBackColor = true;
+            btnAtras.Click += btnAtras_Click;
             // 
             // gbTelefono
             // 
-            gbTelefono.Controls.Add(textBox2);
+            gbTelefono.Controls.Add(txtTelefono);
             gbTelefono.Location = new Point(321, 240);
             gbTelefono.Name = "gbTelefono";
             gbTelefono.Size = new Size(162, 51);
@@ -75,12 +77,12 @@
             gbTelefono.TabStop = false;
             gbTelefono.Text = "Telefono";
             // 
-            // textBox2
+            // txtTelefono
             // 
-            textBox2.Location = new Point(6, 22);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(150, 23);
-            textBox2.TabIndex = 0;
+            txtTelefono.Location = new Point(6, 22);
+            txtTelefono.Name = "txtTelefono";
+            txtTelefono.Size = new Size(150, 23);
+            txtTelefono.TabIndex = 0;
             // 
             // gbNombre
             // 
@@ -165,6 +167,7 @@
             Controls.Add(gbBarrio);
             Name = "ABMCliente";
             Text = "ABMCliente";
+            Load += ABMCliente_Load;
             gbTelefono.ResumeLayout(false);
             gbTelefono.PerformLayout();
             gbNombre.ResumeLayout(false);
@@ -182,7 +185,7 @@
         private Button btnCargar;
         private Button btnAtras;
         private GroupBox gbTelefono;
-        private TextBox textBox2;
+        private TextBox txtTelefono;
         private GroupBox gbNombre;
         private TextBox txtNombre;
         private GroupBox gbApellido;

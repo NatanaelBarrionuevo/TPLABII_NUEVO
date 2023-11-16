@@ -97,6 +97,7 @@
             Controls.Add(gbProveedores);
             Name = "ConsultaProveedores";
             Text = "ConsultaProveedores";
+            Load += ConsultaProveedores_Load;
             gbProveedores.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvProveedores).EndInit();
             ResumeLayout(false);

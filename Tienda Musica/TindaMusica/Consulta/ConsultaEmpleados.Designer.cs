@@ -110,6 +110,7 @@
             Controls.Add(gbEmpleados);
             Name = "ConsultaEmpleados";
             Text = "ConsultaEmpleados";
+            Load += ConsultaEmpleados_Load;
             gbEmpleados.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvEmpleados).EndInit();
             ResumeLayout(false);

@@ -21,5 +21,10 @@ namespace TiendaMusicaBack.Enitidades
             Id = id;
         }
 
+        public Cliente(string apellido, string nombre, Barrio barrio) : base(apellido, nombre, barrio)
+        {
+            
+        }
+
     }
 }

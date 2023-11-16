@@ -214,6 +214,7 @@
             btnAtras.TabIndex = 10;
             btnAtras.Text = "Atras";
             btnAtras.UseVisualStyleBackColor = true;
+            btnAtras.Click += btnAtras_Click;
             // 
             // btnGrabar
             // 
@@ -224,6 +225,7 @@
             btnGrabar.TabIndex = 11;
             btnGrabar.Text = "Grabar";
             btnGrabar.UseVisualStyleBackColor = true;
+            btnGrabar.Click += btnGrabar_Click;
             // 
             // button1
             // 
@@ -253,6 +255,7 @@
             Controls.Add(gbNombre);
             Name = "ABMProducto";
             Text = "ABMProducto";
+            Load += ABMProducto_Load;
             gbNombre.ResumeLayout(false);
             gbNombre.PerformLayout();
             gbDescripcion.ResumeLayout(false);

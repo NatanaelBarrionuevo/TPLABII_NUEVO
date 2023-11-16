@@ -1,6 +1,19 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\Usuario\\Desktop\\TPLAB\\TPLABII_NUEVO\\Tienda Musica\\TindaMusica\\TiendaMusica.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Usuario\\Desktop\\TPLAB\\TPLABII_NUEVO\\Tienda Musica\\TiendaMusicaBack\\TiendaMusicaBack.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TPLAB\\TPLABII_NUEVO\\Tienda Musica\\TiendaMusicaBack\\TiendaMusicaBack.csproj",
+        "projectName": "TiendaMusicaBack",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\TPLAB\\TPLABII_NUEVO\\Tienda Musica\\TiendaMusicaBack\\TiendaMusicaBack.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\TPLAB\\TPLABII_NUEVO\\Tienda Musica\\TiendaMusicaBack\\obj\\",
+=======
     "C:\\Users\\Usuario\\Desktop\\TPLABII_NUEVO\\TPLABII_NUEVO\\Tienda Musica\\TindaMusica\\TiendaMusica.csproj": {}
   },
   "projects": {
@@ -12,6 +25,7 @@
         "projectPath": "C:\\Users\\Usuario\\Desktop\\TPLABII_NUEVO\\TPLABII_NUEVO\\Tienda Musica\\TiendaMusicaBack\\TiendaMusicaBack.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Usuario\\Desktop\\TPLABII_NUEVO\\TPLABII_NUEVO\\Tienda Musica\\TiendaMusicaBack\\obj\\",
+>>>>>>> 666702e34e4cc8fc3892bb73fcd030ac2154f8e2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,6 +74,20 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Usuario\\Desktop\\TPLAB\\TPLABII_NUEVO\\Tienda Musica\\TindaMusica\\TiendaMusica.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TPLAB\\TPLABII_NUEVO\\Tienda Musica\\TindaMusica\\TiendaMusica.csproj",
+        "projectName": "TiendaMusica",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\TPLAB\\TPLABII_NUEVO\\Tienda Musica\\TindaMusica\\TiendaMusica.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\TPLAB\\TPLABII_NUEVO\\Tienda Musica\\TindaMusica\\obj\\",
+=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
@@ -72,6 +100,7 @@
         "projectPath": "C:\\Users\\Usuario\\Desktop\\TPLABII_NUEVO\\TPLABII_NUEVO\\Tienda Musica\\TindaMusica\\TiendaMusica.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Usuario\\Desktop\\TPLABII_NUEVO\\TPLABII_NUEVO\\Tienda Musica\\TindaMusica\\obj\\",
+>>>>>>> 666702e34e4cc8fc3892bb73fcd030ac2154f8e2
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,8 +116,13 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
+<<<<<<< HEAD
+              "C:\\Users\\Usuario\\Desktop\\TPLAB\\TPLABII_NUEVO\\Tienda Musica\\TiendaMusicaBack\\TiendaMusicaBack.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\TPLAB\\TPLABII_NUEVO\\Tienda Musica\\TiendaMusicaBack\\TiendaMusicaBack.csproj"
+=======
               "C:\\Users\\Usuario\\Desktop\\TPLABII_NUEVO\\TPLABII_NUEVO\\Tienda Musica\\TiendaMusicaBack\\TiendaMusicaBack.csproj": {
                 "projectPath": "C:\\Users\\Usuario\\Desktop\\TPLABII_NUEVO\\TPLABII_NUEVO\\Tienda Musica\\TiendaMusicaBack\\TiendaMusicaBack.csproj"
+>>>>>>> 666702e34e4cc8fc3892bb73fcd030ac2154f8e2
               }
             }
           }
@@ -121,7 +155,11 @@
               "privateAssets": "none"
             }
           },
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+>>>>>>> 666702e34e4cc8fc3892bb73fcd030ac2154f8e2
         }
       }
     }

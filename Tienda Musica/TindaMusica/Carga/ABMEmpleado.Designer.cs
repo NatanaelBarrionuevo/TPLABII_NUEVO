@@ -37,7 +37,7 @@
             gbSede = new GroupBox();
             cboSede = new ComboBox();
             gbTelefono = new GroupBox();
-            textBox2 = new TextBox();
+            txtTelefono = new TextBox();
             gbIngreso = new GroupBox();
             dtpFechaIngreso = new DateTimePicker();
             btnAtras = new Button();
@@ -122,7 +122,7 @@
             // 
             // gbTelefono
             // 
-            gbTelefono.Controls.Add(textBox2);
+            gbTelefono.Controls.Add(txtTelefono);
             gbTelefono.Location = new Point(223, 240);
             gbTelefono.Name = "gbTelefono";
             gbTelefono.Size = new Size(162, 51);
@@ -130,12 +130,12 @@
             gbTelefono.TabStop = false;
             gbTelefono.Text = "Telefono";
             // 
-            // textBox2
+            // txtTelefono
             // 
-            textBox2.Location = new Point(6, 22);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(150, 23);
-            textBox2.TabIndex = 0;
+            txtTelefono.Location = new Point(6, 22);
+            txtTelefono.Name = "txtTelefono";
+            txtTelefono.Size = new Size(150, 23);
+            txtTelefono.TabIndex = 0;
             // 
             // gbIngreso
             // 
@@ -172,6 +172,7 @@
             btnCargar.TabIndex = 17;
             btnCargar.Text = "Cargar";
             btnCargar.UseVisualStyleBackColor = true;
+            btnCargar.Click += btnCargar_Click;
             // 
             // ABMEmpleado
             // 
@@ -188,6 +189,7 @@
             Controls.Add(gbPuesto);
             Name = "ABMEmpleado";
             Text = "ABMEmpleado";
+            Load += ABMEmpleado_Load;
             gbApellido.ResumeLayout(false);
             gbApellido.PerformLayout();
             gbPuesto.ResumeLayout(false);
@@ -211,7 +213,7 @@
         private GroupBox gbSede;
         private ComboBox cboSede;
         private GroupBox gbTelefono;
-        private TextBox textBox2;
+        private TextBox txtTelefono;
         private GroupBox gbIngreso;
         private DateTimePicker dtpFechaIngreso;
         private Button btnAtras;
