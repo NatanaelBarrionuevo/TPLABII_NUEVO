@@ -22,3 +22,6 @@ C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\
 C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\refint\TiendaMusicaBack.dll
 C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.pdb
 C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\net6.0\ref\TiendaMusicaBack.dll
+C:\Users\Usuario\Desktop\TPLABII_NUEVO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.dll
+C:\Users\Usuario\Desktop\TPLABII_NUEVO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\refint\TiendaMusicaBack.dll
+C:\Users\Usuario\Desktop\TPLABII_NUEVO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.pdb

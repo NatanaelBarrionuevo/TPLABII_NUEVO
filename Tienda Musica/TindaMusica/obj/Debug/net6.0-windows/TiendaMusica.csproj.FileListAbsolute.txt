@@ -61,3 +61,6 @@ C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TindaMusica\obj\Debug\net6.
 C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.genruntimeconfig.cache
 C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TindaMusica\obj\Debug\net6.0-windows\ref\TiendaMusica.dll
 C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Compra.frmVentaEncabezado.resources
+C:\Users\Usuario\Desktop\TPLABII_NUEVO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.dll
+C:\Users\Usuario\Desktop\TPLABII_NUEVO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\refint\TiendaMusica.dll
+C:\Users\Usuario\Desktop\TPLABII_NUEVO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.pdb
