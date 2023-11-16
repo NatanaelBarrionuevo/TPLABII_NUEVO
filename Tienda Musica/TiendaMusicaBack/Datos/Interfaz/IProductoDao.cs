@@ -15,5 +15,7 @@ namespace TiendaMusicaBack.Datos.Interfaz
         List<Proveedor> ConsultarProveedores();
         bool CargarProducto(Producto oProducto);
         bool CargarCaracteristica(Caracteristica oCaracteristica);
+        List<TipoProducto> ConsultarTipoProducto();
+        List<Producto> ConsultarProductos();
     }
 }

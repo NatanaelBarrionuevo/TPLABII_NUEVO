@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\TPLABII-agusnieto\\TPLABII_NUEVO\\TindaMusica\\TindaMusica\\TiendaMusica.csproj": {}
+    "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\Git\\TPLABII_NUEVO\\Front Rulo\\TindaMusica\\TiendaMusica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\TPLABII-agusnieto\\TPLABII_NUEVO\\TindaMusica\\TiendaMusicaBack\\TiendaMusicaBack.csproj": {
+    "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\Git\\TPLABII_NUEVO\\Front Rulo\\TiendaMusicaBack\\TiendaMusicaBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TPLABII-agusnieto\\TPLABII_NUEVO\\TindaMusica\\TiendaMusicaBack\\TiendaMusicaBack.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\Git\\TPLABII_NUEVO\\Front Rulo\\TiendaMusicaBack\\TiendaMusicaBack.csproj",
         "projectName": "TiendaMusicaBack",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\TPLABII-agusnieto\\TPLABII_NUEVO\\TindaMusica\\TiendaMusicaBack\\TiendaMusicaBack.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\TPLABII-agusnieto\\TPLABII_NUEVO\\TindaMusica\\TiendaMusicaBack\\obj\\",
+        "projectPath": "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\Git\\TPLABII_NUEVO\\Front Rulo\\TiendaMusicaBack\\TiendaMusicaBack.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\Git\\TPLABII_NUEVO\\Front Rulo\\TiendaMusicaBack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -60,35 +61,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\TPLABII-agusnieto\\TPLABII_NUEVO\\TindaMusica\\TindaMusica\\TiendaMusica.csproj": {
+    "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\Git\\TPLABII_NUEVO\\Front Rulo\\TindaMusica\\TiendaMusica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TPLABII-agusnieto\\TPLABII_NUEVO\\TindaMusica\\TindaMusica\\TiendaMusica.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\Git\\TPLABII_NUEVO\\Front Rulo\\TindaMusica\\TiendaMusica.csproj",
         "projectName": "TiendaMusica",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\TPLABII-agusnieto\\TPLABII_NUEVO\\TindaMusica\\TindaMusica\\TiendaMusica.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\TPLABII-agusnieto\\TPLABII_NUEVO\\TindaMusica\\TindaMusica\\obj\\",
+        "projectPath": "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\Git\\TPLABII_NUEVO\\Front Rulo\\TindaMusica\\TiendaMusica.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\Git\\TPLABII_NUEVO\\Front Rulo\\TindaMusica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\TPLABII-agusnieto\\TPLABII_NUEVO\\TindaMusica\\TiendaMusicaBack\\TiendaMusicaBack.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\TPLABII-agusnieto\\TPLABII_NUEVO\\TindaMusica\\TiendaMusicaBack\\TiendaMusicaBack.csproj"
+              "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\Git\\TPLABII_NUEVO\\Front Rulo\\TiendaMusicaBack\\TiendaMusicaBack.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\Git\\TPLABII_NUEVO\\Front Rulo\\TiendaMusicaBack\\TiendaMusicaBack.csproj"
               }
             }
           }
@@ -121,7 +123,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -22,7 +22,7 @@ namespace TiendaMusicaBack.Datos.Implementacion
                 new Parametro("@PUESTO", oEmpleado.Puesto.Id),
                 new Parametro("@SEDE", oEmpleado.Sede.Id),
                 new Parametro("@TELEFONO", oEmpleado.Telefono),
-                new Parametro("@FECHAINGRESO", oEmpleado.Fecha_ingreso)               
+                new Parametro("@FECHAINGRESO", oEmpleado.Fecha_ingreso)
             };
             string sp = "SP_INSERT_EMPLEADO";
 
@@ -97,7 +97,7 @@ namespace TiendaMusicaBack.Datos.Implementacion
 
         public List<Empleado> GetEmpoleadosPorSede(Sede sede)
         {
-            
+
             List<Parametro> parametros = new List<Parametro>()
             {
                 new Parametro("@SEDE", sede.Id.ToString())
@@ -113,8 +113,38 @@ namespace TiendaMusicaBack.Datos.Implementacion
             {
                 foreach (DataRow row in tabla.Rows)
                 {
-                   
+
                     lista.Add(new Empleado(row["APELLIDO"].ToString(), row["NOMBRE"].ToString(), Convert.ToInt32(row["LEGAJO"]), System.DateTime.Now));
+                }
+
+                return lista;
+            }
+
+            return null;
+        }
+        public List<Empleado> ConsultarEmpleados()
+        {
+
+            List<Parametro> parametros = new List<Parametro>();
+            string sp = "SP_SCREEN_EMPLEADOS";
+
+
+            DataTable tabla = HelperDB.ObtenerInstancia().ConsultaSQL(sp, parametros);
+
+
+            List<Empleado> lista = new List<Empleado>();
+            if (tabla.Rows.Count > 0)
+            {
+                foreach (DataRow row in tabla.Rows)
+                {
+
+                    lista.Add(new Empleado(row["APELLIDO"].ToString(), row["NOMBRE"].ToString(), Convert.ToInt32(row["LEGAJO"]), Convert.ToDateTime(row["INGRESO"]))
+                    {
+                        Sede = new Sede() { Nombre = row["SEDE"].ToString() },
+                        Legajo = Convert.ToInt32(row["LEGAJO"]),
+                        Puesto = new Puesto() { Descripcion = row["PUESTO"].ToString() },
+                        Telefono = Convert.ToInt32(row["TELEFONO"])
+                    });
                 }
 
                 return lista;

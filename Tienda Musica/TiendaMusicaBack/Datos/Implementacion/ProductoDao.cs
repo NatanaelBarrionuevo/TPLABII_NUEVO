@@ -180,5 +180,64 @@ namespace TiendaMusicaBack.Datos.Implementacion
 
             return null;
         }
+        public List<TipoProducto> ConsultarTipoProducto()
+        {
+            TipoProducto tipo;
+            List<Parametro> parametros = new List<Parametro>();
+            string sp = "SP_GET_TIPO_PRODUCTO";
+
+
+            DataTable tabla = HelperDB.ObtenerInstancia().ConsultaSQL(sp, parametros);
+
+
+            List<TipoProducto> lista = new List<TipoProducto>();
+            if (tabla.Rows.Count > 0)
+            {
+                foreach (DataRow row in tabla.Rows)
+                {
+                    tipo = new TipoProducto()
+                    {
+                        Id = Convert.ToInt32(row["ID_T_PRODUCTO"]),
+                        Tipo = row["TIPO"].ToString()
+                    };
+                    lista.Add(tipo);
+                }
+
+                return lista;
+            }
+
+            return null;
+        }
+        public List<Producto> ConsultarProductos()
+        {
+            Producto producto;
+            List<Parametro> parametros = new List<Parametro>();
+            List<Producto> productos = new List<Producto>();
+            string sp = "SP_SCREEN_PRODUCTOS";
+
+            DataTable tabla = HelperDB.ObtenerInstancia().ConsultaSQL(sp, parametros);
+
+
+            if (tabla.Rows.Count > 0)
+            {
+                foreach (DataRow row in tabla.Rows)
+                {
+                    productos = new List<Producto>();
+                    producto = new Producto()
+                    {
+                        Id = Convert.ToInt32(row["ID_PRODUCTO"]),
+                        Nombre = row["NOMBRE"].ToString(),
+                        Tipo_prod = new TipoCaracteristica() { Tipo = row["TIPO"].ToString() },
+                        Marca = new Marca() { Nombre = row["MARCA"].ToString() },
+                        Proveedor = new Proveedor() { Nombre = row["PROVEEDOR"].ToString() },
+                        Pais = new Pais() { Nombre = row["PAIS"].ToString() },
+                        Stock = Convert.ToInt32(row["STOCK"]),
+                        Precio = Convert.ToDouble(row["PRECIO"])
+                    };
+                    productos.Add(producto);
+                }
+            }
+            return productos;
+        }
     }
 }

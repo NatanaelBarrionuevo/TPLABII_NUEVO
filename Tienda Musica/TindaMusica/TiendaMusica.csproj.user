@@ -1,6 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Carga\ABM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Carga\ABMCaracteristicas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Carga\ABMCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Carga\ABMEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Carga\ABMProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Carga\ABMProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Compra\frmVenta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -11,6 +29,21 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Compra\frmVentaServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Consulta\Consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Consulta\ConsultaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Consulta\ConsultaEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Consulta\ConsultaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Consulta\ConsultaProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Form1.cs">

@@ -63,5 +63,64 @@ namespace TiendaMusicaBack.Datos.Implementacion
 
             return null;
         }
+        public List<Barrio> ConsultarBarrios()
+        {
+            Barrio barrio;
+            List<Parametro> parametros = new List<Parametro>();
+            string sp = "SP_GET_BARRIOS";
+
+
+            DataTable tabla = HelperDB.ObtenerInstancia().ConsultaSQL(sp, parametros);
+
+
+            List<Barrio> lista = new List<Barrio>();
+            if (tabla.Rows.Count > 0)
+            {
+                foreach (DataRow row in tabla.Rows)
+                {
+                    barrio = new Barrio()
+                    {
+                        Id = Convert.ToInt32(row["ID_BARRIO"]),
+                        Nombre = row["BARRIO"].ToString()
+                    };
+                    lista.Add(barrio);
+                }
+
+                return lista;
+            }
+
+            return null;
+        }
+        public List<Proveedor> ConsultarProveedores()
+        {
+            Proveedor proveedor;
+            List<Parametro> parametros = new List<Parametro>();
+            string sp = "SP_SCREEN_PROVEEDORES";
+
+
+            DataTable tabla = HelperDB.ObtenerInstancia().ConsultaSQL(sp, parametros);
+
+
+            List<Proveedor> lista = new List<Proveedor>();
+            if (tabla.Rows.Count > 0)
+            {
+                foreach (DataRow row in tabla.Rows)
+                {
+                    proveedor = new Proveedor()
+                    {
+                        Id = Convert.ToInt32(row["ID_RAZON"]),
+                        Nombre = row["PROVEEDOR"].ToString(),
+                        Razon = new RazonSocial() { Nombre = row["RAZON"].ToString() },
+                        Calle = row["CALLE"].ToString(),
+                        Barrio = new Barrio() { Nombre = row["BARRIO"].ToString() }
+                    };
+                    lista.Add(proveedor);
+                }
+
+                return lista;
+            }
+
+            return null;
+        }
     }
 }

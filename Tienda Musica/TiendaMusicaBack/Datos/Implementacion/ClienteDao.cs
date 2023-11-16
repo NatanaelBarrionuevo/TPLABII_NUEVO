@@ -91,7 +91,35 @@ namespace TiendaMusicaBack.Datos.Implementacion
 
             return null;
         }
+        public List<Cliente> ConsultarTodosClientes()
+        {
+
+            List<Parametro> parametros = new List<Parametro>();
+            string sp = "SP_SCREEN_CLIENTES";
+
+
+            DataTable tabla = HelperDB.ObtenerInstancia().ConsultaSQL(sp, parametros);
+
+
+            List<Cliente> lista = new List<Cliente>();
+            if (tabla.Rows.Count > 0)
+            {
+                foreach (DataRow row in tabla.Rows)
+                {
+
+                    lista.Add(new Cliente(row["APELLIDO"].ToString(), row["NOMBRE"].ToString(), new Barrio() { Nombre = row["BARRIO"].ToString() }, Convert.ToInt32(row["ID"]))
+                    {
+                        Telefono = Convert.ToInt32(row["TELEFONO"]),
+                        Email = row["EMAIL"].ToString()
+                    });
+                }
+
+                return lista;
+            }
+
+            return null;
+        }
 
     }
-    }
+}
 
