@@ -28,51 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lnk = new System.Windows.Forms.LinkLabel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            lnk = new LinkLabel();
+            label1 = new Label();
+            SuspendLayout();
             // 
             // lnk
             // 
-            this.lnk.AutoSize = true;
-            this.lnk.Location = new System.Drawing.Point(362, 247);
-            this.lnk.Name = "lnk";
-            this.lnk.Size = new System.Drawing.Size(46, 13);
-            this.lnk.TabIndex = 0;
-            this.lnk.TabStop = true;
-            this.lnk.Text = "clic aqui";
-            this.lnk.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnk_LinkClicked);
+            lnk.AutoSize = true;
+            lnk.Location = new Point(356, 419);
+            lnk.Margin = new Padding(4, 0, 4, 0);
+            lnk.Name = "lnk";
+            lnk.Size = new Size(334, 20);
+            lnk.TabIndex = 0;
+            lnk.TabStop = true;
+            lnk.Text = "https://github.com/NatanaelBarrionuevo/TPLABII";
+            lnk.LinkClicked += lnk_LinkClicked;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(216, 172);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(366, 47);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "nuestra pagina cheta";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(288, 265);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(519, 60);
+            label1.TabIndex = 1;
+            label1.Text = "Conozca sobre nosotros";
+            label1.Click += label1_Click;
             // 
             // informacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lnk);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "informacion";
-            this.Text = "informacion";
-            this.Load += new System.EventHandler(this.informacion_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ButtonFace;
+            ClientSize = new Size(1067, 692);
+            Controls.Add(label1);
+            Controls.Add(lnk);
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(4, 5, 4, 5);
+            Name = "informacion";
+            Text = "informacion";
+            Load += informacion_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.LinkLabel lnk;
-        private System.Windows.Forms.Label label1;
+        private LinkLabel lnk;
+        private Label label1;
     }
 }

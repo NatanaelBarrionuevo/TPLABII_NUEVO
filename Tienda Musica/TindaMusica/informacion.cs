@@ -20,13 +20,18 @@ namespace menuslide
 
         private void informacion_Load(object sender, EventArgs e)
         {
-            lnk.Links.Add(0,lnk.Text.Length, "https://www.youtube.com/watch?v=mCdA4bJAGGk");
+            lnk.Links.Add(0, lnk.Text.Length, "https://www.youtube.com/watch?v=mCdA4bJAGGk");
         }
 
         private void lnk_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             ProcessStartInfo sinfo = new ProcessStartInfo(e.Link.LinkData.ToString());
             Process.Start(sinfo);
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
     }

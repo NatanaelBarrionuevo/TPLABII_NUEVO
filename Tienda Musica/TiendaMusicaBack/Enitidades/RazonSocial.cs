@@ -34,5 +34,10 @@ namespace TiendaMusicaBack.Enitidades
             
         }
 
+		public override string ToString()
+		{
+			return Nombre;
+		}
+
     }
 }

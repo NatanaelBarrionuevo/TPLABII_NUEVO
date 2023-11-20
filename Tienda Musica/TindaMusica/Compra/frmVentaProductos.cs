@@ -132,7 +132,12 @@ namespace TindaMusica.Venta
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            if (dataGridView1.CurrentCell.ColumnIndex == 6)
+            {
+                factura.QuitarDetalleFactura(dataGridView1.CurrentRow.Index);
+                dataGridView1.Rows.RemoveAt(dataGridView1.CurrentRow.Index);
+                lblTotal.Text = factura.TotalProductos().ToString();
+            }
         }
 
         public List<DetaleFactura> GetDetaleFacturaList() { return detalleFactura; }

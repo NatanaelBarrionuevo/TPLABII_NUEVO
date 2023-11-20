@@ -77,6 +77,46 @@ namespace TindaMusica.Venta
             if (stepActual == 2)
             {
                 FinalizarCompra();
+                formEncabezado.Hide();
+                factura = new Factura();
+                stepActual = 0;
+                detalleServicio = new List<DetalleServicio>();
+                detalleFactura = new List<DetaleFactura>();
+                this.factura = new Factura();
+                factura.DetaleFactura = detalleFactura;
+                factura.DetalleServicio = detalleServicio;
+
+
+                InitializeComponent();
+
+                formProd = new frmVentaProductos(factura);
+                formProd.TopLevel = false;
+                formProd.FormBorderStyle = FormBorderStyle.None;
+                this.Controls.Add(formProd);
+                formProd.Location = new Point(40, 80);
+
+
+
+                formServ = new frmVentaServicios(factura);
+                formServ.TopLevel = false;
+                formServ.FormBorderStyle = FormBorderStyle.None;
+                this.Controls.Add(formServ);
+                formServ.Location = new Point(40, 80);
+
+
+                formEncabezado = new frmVentaEncabezado(factura);
+                formEncabezado.TopLevel = false;
+                formEncabezado.FormBorderStyle = FormBorderStyle.None;
+                this.Controls.Add(formEncabezado);
+                formEncabezado.Location = new Point(40, 80);
+
+                steps.Clear();
+                steps.Add(formProd);
+                steps.Add(formServ);
+                steps.Add(formEncabezado);
+                steps[stepActual].Show();
+                btnCancelar.Enabled = false;
+
             }
             else
             {

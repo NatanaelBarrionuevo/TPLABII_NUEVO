@@ -10,7 +10,7 @@ namespace PresupuestosBack.Datos
 
         private HelperDB()
         {
-            cnn = new SqlConnection("Data Source = localhost; Initial Catalog = TIENDA_MUSICA_V14; User ID = sa; Password = test");
+            cnn = new SqlConnection(@"Data Source=NEHO-PC\SQLEXPRESS;Initial Catalog=TIENDA_MUSICA_V14;Integrated Security=True");
         }
 
         public static HelperDB ObtenerInstancia()

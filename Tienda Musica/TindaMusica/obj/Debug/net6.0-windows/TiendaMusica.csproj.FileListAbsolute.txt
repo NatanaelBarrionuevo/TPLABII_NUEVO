@@ -64,3 +64,145 @@ C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TindaMusica\obj\Debug\net6.
 C:\Users\Usuario\Desktop\TPLABII_NUEVO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.dll
 C:\Users\Usuario\Desktop\TPLABII_NUEVO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\refint\TiendaMusica.dll
 C:\Users\Usuario\Desktop\TPLABII_NUEVO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.pdb
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.exe
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.deps.json
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.runtimeconfig.json
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.dll
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.pdb
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusicaBack.dll
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusicaBack.pdb
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABM.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMCaracteristicas.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMCliente.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMEmpleado.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMProducto.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMProveedor.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TindaMusica.Venta.frmVenta.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Compra.frmVentaEncabezado.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TindaMusica.Venta.frmVentaProductos.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TindaMusica.Venta.frmVentaServicios.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.Consulta.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.ConsultaClientes.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.ConsultaEmpleados.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.ConsultaProductos.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.ConsultaProveedores.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\menuslide.Form1.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\menuslide.form.Home.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\menuslide.informacion.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Properties.Resources.resources
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.csproj.CopyComplete
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.dll
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\refint\TiendaMusica.dll
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.pdb
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\ref\TiendaMusica.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.exe
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.deps.json
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.runtimeconfig.json
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.pdb
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusicaBack.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusicaBack.pdb
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.csproj.AssemblyReference.cache
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABM.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMCaracteristicas.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMCliente.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMEmpleado.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMProducto.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMProveedor.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TindaMusica.Venta.frmVenta.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Compra.frmVentaEncabezado.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TindaMusica.Venta.frmVentaProductos.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TindaMusica.Venta.frmVentaServicios.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.Consulta.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.ConsultaClientes.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.ConsultaEmpleados.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.ConsultaProductos.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.ConsultaProveedores.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\menuslide.Form1.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\menuslide.form.Home.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\menuslide.informacion.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Properties.Resources.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.csproj.GenerateResource.cache
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.AssemblyInfoInputs.cache
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.AssemblyInfo.cs
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.csproj.CoreCompileInputs.cache
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.csproj.CopyComplete
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\refint\TiendaMusica.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.pdb
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.genruntimeconfig.cache
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\ref\TiendaMusica.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.principal.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Form2.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Form3.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Form4.resources
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Form5.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.exe
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.deps.json
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.runtimeconfig.json
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusica.pdb
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusicaBack.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\bin\Debug\net6.0-windows\TiendaMusicaBack.pdb
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABM.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMCaracteristicas.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMCliente.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMEmpleado.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMProducto.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Carga.ABMProveedor.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TindaMusica.Venta.frmVenta.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Compra.frmVentaEncabezado.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TindaMusica.Venta.frmVentaProductos.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TindaMusica.Venta.frmVentaServicios.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.Consulta.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.ConsultaClientes.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.ConsultaEmpleados.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.ConsultaProductos.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Consulta.ConsultaProveedores.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\menuslide.Form1.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Form2.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Form3.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Form4.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Form5.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\menuslide.form.Home.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\menuslide.informacion.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.principal.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.Properties.Resources.resources
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.csproj.GenerateResource.cache
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.csproj.CopyComplete
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\refint\TiendaMusica.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.pdb
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\TiendaMusica.genruntimeconfig.cache
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TindaMusica\obj\Debug\net6.0-windows\ref\TiendaMusica.dll

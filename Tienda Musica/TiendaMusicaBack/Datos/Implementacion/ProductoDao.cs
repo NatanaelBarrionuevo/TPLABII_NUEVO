@@ -217,12 +217,12 @@ namespace TiendaMusicaBack.Datos.Implementacion
 
             DataTable tabla = HelperDB.ObtenerInstancia().ConsultaSQL(sp, parametros);
 
-
+            productos = new List<Producto>();
             if (tabla.Rows.Count > 0)
             {
                 foreach (DataRow row in tabla.Rows)
                 {
-                    productos = new List<Producto>();
+                   
                     producto = new Producto()
                     {
                         Id = Convert.ToInt32(row["ID_PRODUCTO"]),
@@ -232,7 +232,8 @@ namespace TiendaMusicaBack.Datos.Implementacion
                         Proveedor = new Proveedor() { Nombre = row["PROVEEDOR"].ToString() },
                         Pais = new Pais() { Nombre = row["PAIS"].ToString() },
                         Stock = Convert.ToInt32(row["STOCK"]),
-                        Precio = Convert.ToDouble(row["PRECIO"])
+                        Precio = Convert.ToDouble(row["PRECIO"]),
+                        TipoProducto = new TipoProducto() { Tipo = row["TIPO"].ToString() }
                     };
                     productos.Add(producto);
                 }

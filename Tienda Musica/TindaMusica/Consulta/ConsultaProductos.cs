@@ -32,6 +32,7 @@ namespace TiendaMusica.Consulta
                 {
                     item.Id,
                     item.Nombre,
+                    item.TipoProducto.Tipo,
                     item.Marca.Nombre,
                     item.Proveedor.Nombre,
                     item.Pais.Nombre,

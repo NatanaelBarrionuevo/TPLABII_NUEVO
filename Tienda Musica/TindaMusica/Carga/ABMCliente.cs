@@ -46,7 +46,7 @@ namespace TiendaMusica.Carga
                 string apellido = txtApellido.Text;
                 string nombre = txtNombre.Text;
                 string email = txtEmail.Text;
-                int telefono = Convert.ToInt32(txtTelefono.Text);
+                string telefono = (txtTelefono.Text);
                 Barrio barrio = (Barrio)cboBarrio.SelectedItem;
                 nuevo = new Cliente(apellido, nombre, barrio) { Email = email, Telefono = telefono };
                 if (cliente.CargarCliente(nuevo))

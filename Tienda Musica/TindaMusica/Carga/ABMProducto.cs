@@ -15,6 +15,7 @@ namespace TiendaMusica.Carga
 {
     public partial class ABMProducto : Form
     {
+        private ABMCaracteristicas ventanaCaracteristicas;
         private IProductoDao servicio;
         private Producto producto;
         public ABMProducto()
@@ -22,6 +23,7 @@ namespace TiendaMusica.Carga
             InitializeComponent();
             servicio = new ProductoDao();
             producto = new Producto();
+            ventanaCaracteristicas = new ABMCaracteristicas();
         }
 
         private void ABMProducto_Load(object sender, EventArgs e)
@@ -201,6 +203,11 @@ namespace TiendaMusica.Carga
         private void btnAtras_Click(object sender, EventArgs e)
         {
             this.Dispose();
+        }
+
+        private void btnCaracteristicas_Click(object sender, EventArgs e)
+        {
+            ventanaCaracteristicas.ShowDialog();
         }
     }
 }

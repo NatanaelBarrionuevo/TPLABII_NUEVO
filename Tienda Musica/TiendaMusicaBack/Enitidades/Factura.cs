@@ -43,5 +43,14 @@ namespace TiendaMusicaBack.Enitidades
 
         public double Total() { return TotalServicios() + TotalProductos(); }
 
+        public void QuitarDetalleServicio(int id)
+        {
+            DetalleServicio.RemoveAt(id);
+        }
+        public void QuitarDetalleFactura(int id)
+        {
+            DetaleFactura.RemoveAt(id);
+        }
+
     }
 }

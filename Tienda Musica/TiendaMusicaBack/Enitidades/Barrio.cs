@@ -38,9 +38,12 @@ namespace TiendaMusicaBack.Enitidades
 			Nombre = nombre;
 			Provincia = prov;
 		}
-        public Barrio()
+		public Barrio()
+		{ }
+          public override string ToString()
         {
-            
+            return Nombre;
         }
     }
-}
+    }
+

@@ -63,7 +63,7 @@ namespace TindaMusica.Venta
 
         private void ActualizarTotal()
         {
-            
+
 
             lblTotal.Text = factura.TotalServicios().ToString();
         }
@@ -120,6 +120,16 @@ namespace TindaMusica.Venta
 
             return ok;
 
+        }
+
+        private void dgvDetalleServicio_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dgvDetalleServicio.CurrentCell.ColumnIndex == 5)
+            {
+                factura.QuitarDetalleServicio(dgvDetalleServicio.CurrentRow.Index);
+                dgvDetalleServicio.Rows.RemoveAt(dgvDetalleServicio.CurrentRow.Index);
+                lblTotal.Text = factura.TotalServicios().ToString();
+            }
         }
     }
 }

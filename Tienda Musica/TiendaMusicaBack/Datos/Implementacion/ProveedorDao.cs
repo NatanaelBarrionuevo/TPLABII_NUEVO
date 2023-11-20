@@ -108,7 +108,7 @@ namespace TiendaMusicaBack.Datos.Implementacion
                 {
                     proveedor = new Proveedor()
                     {
-                        Id = Convert.ToInt32(row["ID_RAZON"]),
+                        Id = Convert.ToInt32(row["ID"]),
                         Nombre = row["PROVEEDOR"].ToString(),
                         Razon = new RazonSocial() { Nombre = row["RAZON"].ToString() },
                         Calle = row["CALLE"].ToString(),

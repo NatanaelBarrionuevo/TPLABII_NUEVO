@@ -30,12 +30,14 @@
         {
             components = new System.ComponentModel.Container();
             sidebar = new Panel();
-            pnlsalir = new Panel();
-            btnsalir = new Button();
             pnlinfo = new Panel();
             btninformacion = new Button();
             pnlayuda = new Panel();
+            button4 = new Button();
+            button1 = new Button();
             btnayuda = new Button();
+            pnlsalir = new Panel();
+            btnsalir = new Button();
             pnlcompra = new Panel();
             btncompra = new Button();
             pnlhome = new Panel();
@@ -49,9 +51,9 @@
             button2 = new Button();
             pnlhijos = new Panel();
             sidebar.SuspendLayout();
-            pnlsalir.SuspendLayout();
             pnlinfo.SuspendLayout();
             pnlayuda.SuspendLayout();
+            pnlsalir.SuspendLayout();
             pnlcompra.SuspendLayout();
             pnlhome.SuspendLayout();
             pnlmenu.SuspendLayout();
@@ -61,9 +63,9 @@
             // sidebar
             // 
             sidebar.BackColor = Color.FromArgb(35, 40, 45);
-            sidebar.Controls.Add(pnlsalir);
             sidebar.Controls.Add(pnlinfo);
             sidebar.Controls.Add(pnlayuda);
+            sidebar.Controls.Add(pnlsalir);
             sidebar.Controls.Add(pnlcompra);
             sidebar.Controls.Add(pnlhome);
             sidebar.Controls.Add(pnlmenu);
@@ -74,6 +76,112 @@
             sidebar.Name = "sidebar";
             sidebar.Size = new Size(191, 735);
             sidebar.TabIndex = 0;
+            // 
+            // pnlinfo
+            // 
+            pnlinfo.BackColor = Color.FromArgb(35, 40, 45);
+            pnlinfo.Controls.Add(btninformacion);
+            pnlinfo.Dock = DockStyle.Top;
+            pnlinfo.Location = new Point(0, 469);
+            pnlinfo.Margin = new Padding(4, 5, 4, 5);
+            pnlinfo.Name = "pnlinfo";
+            pnlinfo.Size = new Size(191, 69);
+            pnlinfo.TabIndex = 5;
+            // 
+            // btninformacion
+            // 
+            btninformacion.Cursor = Cursors.Hand;
+            btninformacion.FlatStyle = FlatStyle.Flat;
+            btninformacion.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btninformacion.ForeColor = SystemColors.ButtonFace;
+            btninformacion.Image = TiendaMusica.Properties.Resources.icons8_información_20;
+            btninformacion.ImageAlign = ContentAlignment.MiddleLeft;
+            btninformacion.Location = new Point(-20, -9);
+            btninformacion.Margin = new Padding(4, 5, 4, 5);
+            btninformacion.Name = "btninformacion";
+            btninformacion.Padding = new Padding(27, 0, 0, 0);
+            btninformacion.RightToLeft = RightToLeft.No;
+            btninformacion.Size = new Size(301, 88);
+            btninformacion.TabIndex = 4;
+            btninformacion.Text = "        Informacion";
+            btninformacion.TextAlign = ContentAlignment.MiddleLeft;
+            btninformacion.UseVisualStyleBackColor = true;
+            btninformacion.Click += btninformacion_Click;
+            // 
+            // pnlayuda
+            // 
+            pnlayuda.BackColor = Color.FromArgb(35, 40, 45);
+            pnlayuda.Controls.Add(button4);
+            pnlayuda.Controls.Add(button1);
+            pnlayuda.Controls.Add(btnayuda);
+            pnlayuda.Dock = DockStyle.Top;
+            pnlayuda.Location = new Point(0, 281);
+            pnlayuda.Margin = new Padding(4, 5, 4, 5);
+            pnlayuda.MaximumSize = new Size(191, 188);
+            pnlayuda.MinimumSize = new Size(191, 68);
+            pnlayuda.Name = "pnlayuda";
+            pnlayuda.Size = new Size(191, 188);
+            pnlayuda.TabIndex = 5;
+            // 
+            // button4
+            // 
+            button4.Cursor = Cursors.Hand;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ForeColor = SystemColors.ButtonFace;
+            button4.Image = TiendaMusica.Properties.Resources.icons8_insertar_página_20;
+            button4.ImageAlign = ContentAlignment.MiddleLeft;
+            button4.Location = new Point(-2, 130);
+            button4.Margin = new Padding(4, 5, 4, 5);
+            button4.Name = "button4";
+            button4.Padding = new Padding(27, 0, 0, 0);
+            button4.RightToLeft = RightToLeft.No;
+            button4.Size = new Size(301, 60);
+            button4.TabIndex = 6;
+            button4.Text = "        Carga";
+            button4.TextAlign = ContentAlignment.MiddleLeft;
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // button1
+            // 
+            button1.Cursor = Cursors.Hand;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.ForeColor = SystemColors.ButtonFace;
+            button1.Image = TiendaMusica.Properties.Resources.icons8_general_20;
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(-5, 73);
+            button1.Margin = new Padding(4, 5, 4, 5);
+            button1.Name = "button1";
+            button1.Padding = new Padding(27, 0, 0, 0);
+            button1.RightToLeft = RightToLeft.No;
+            button1.Size = new Size(301, 60);
+            button1.TabIndex = 5;
+            button1.Text = "        Consultar";
+            button1.TextAlign = ContentAlignment.MiddleLeft;
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // btnayuda
+            // 
+            btnayuda.Cursor = Cursors.Hand;
+            btnayuda.FlatStyle = FlatStyle.Flat;
+            btnayuda.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnayuda.ForeColor = SystemColors.ButtonFace;
+            btnayuda.Image = TiendaMusica.Properties.Resources.icons8_ayuda_20;
+            btnayuda.ImageAlign = ContentAlignment.MiddleLeft;
+            btnayuda.Location = new Point(-20, -9);
+            btnayuda.Margin = new Padding(4, 5, 4, 5);
+            btnayuda.Name = "btnayuda";
+            btnayuda.Padding = new Padding(27, 0, 0, 0);
+            btnayuda.RightToLeft = RightToLeft.No;
+            btnayuda.Size = new Size(301, 88);
+            btnayuda.TabIndex = 4;
+            btnayuda.Text = "        Ayuda";
+            btnayuda.TextAlign = ContentAlignment.MiddleLeft;
+            btnayuda.UseVisualStyleBackColor = true;
+            btnayuda.Click += btnayuda_Click;
             // 
             // pnlsalir
             // 
@@ -105,65 +213,6 @@
             btnsalir.UseVisualStyleBackColor = true;
             btnsalir.Click += btnsalir_Click;
             // 
-            // pnlinfo
-            // 
-            pnlinfo.BackColor = Color.FromArgb(35, 40, 45);
-            pnlinfo.Controls.Add(btninformacion);
-            pnlinfo.Dock = DockStyle.Top;
-            pnlinfo.Location = new Point(0, 350);
-            pnlinfo.Margin = new Padding(4, 5, 4, 5);
-            pnlinfo.Name = "pnlinfo";
-            pnlinfo.Size = new Size(191, 69);
-            pnlinfo.TabIndex = 5;
-            // 
-            // btninformacion
-            // 
-            btninformacion.Cursor = Cursors.Hand;
-            btninformacion.FlatStyle = FlatStyle.Flat;
-            btninformacion.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btninformacion.ForeColor = SystemColors.ButtonFace;
-            btninformacion.ImageAlign = ContentAlignment.MiddleLeft;
-            btninformacion.Location = new Point(-20, -9);
-            btninformacion.Margin = new Padding(4, 5, 4, 5);
-            btninformacion.Name = "btninformacion";
-            btninformacion.Padding = new Padding(27, 0, 0, 0);
-            btninformacion.RightToLeft = RightToLeft.No;
-            btninformacion.Size = new Size(301, 88);
-            btninformacion.TabIndex = 4;
-            btninformacion.Text = "        Informacion";
-            btninformacion.TextAlign = ContentAlignment.MiddleLeft;
-            btninformacion.UseVisualStyleBackColor = true;
-            btninformacion.Click += btninformacion_Click;
-            // 
-            // pnlayuda
-            // 
-            pnlayuda.BackColor = Color.FromArgb(35, 40, 45);
-            pnlayuda.Controls.Add(btnayuda);
-            pnlayuda.Dock = DockStyle.Top;
-            pnlayuda.Location = new Point(0, 281);
-            pnlayuda.Margin = new Padding(4, 5, 4, 5);
-            pnlayuda.Name = "pnlayuda";
-            pnlayuda.Size = new Size(191, 69);
-            pnlayuda.TabIndex = 5;
-            // 
-            // btnayuda
-            // 
-            btnayuda.Cursor = Cursors.Hand;
-            btnayuda.FlatStyle = FlatStyle.Flat;
-            btnayuda.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnayuda.ForeColor = SystemColors.ButtonFace;
-            btnayuda.ImageAlign = ContentAlignment.MiddleLeft;
-            btnayuda.Location = new Point(-20, -9);
-            btnayuda.Margin = new Padding(4, 5, 4, 5);
-            btnayuda.Name = "btnayuda";
-            btnayuda.Padding = new Padding(27, 0, 0, 0);
-            btnayuda.RightToLeft = RightToLeft.No;
-            btnayuda.Size = new Size(301, 88);
-            btnayuda.TabIndex = 4;
-            btnayuda.Text = "        Ayuda";
-            btnayuda.TextAlign = ContentAlignment.MiddleLeft;
-            btnayuda.UseVisualStyleBackColor = true;
-            // 
             // pnlcompra
             // 
             pnlcompra.BackColor = Color.FromArgb(35, 40, 45);
@@ -181,6 +230,7 @@
             btncompra.FlatStyle = FlatStyle.Flat;
             btncompra.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btncompra.ForeColor = SystemColors.ButtonFace;
+            btncompra.Image = TiendaMusica.Properties.Resources.icons8_compra_20;
             btncompra.ImageAlign = ContentAlignment.MiddleLeft;
             btncompra.Location = new Point(-20, -5);
             btncompra.Margin = new Padding(4, 5, 4, 5);
@@ -211,6 +261,7 @@
             btnhome.FlatStyle = FlatStyle.Flat;
             btnhome.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btnhome.ForeColor = SystemColors.ButtonFace;
+            btnhome.Image = TiendaMusica.Properties.Resources.icons8_casa_20;
             btnhome.ImageAlign = ContentAlignment.MiddleLeft;
             btnhome.Location = new Point(-20, -8);
             btnhome.Margin = new Padding(4, 5, 4, 5);
@@ -240,6 +291,7 @@
             btnmenu.FlatStyle = FlatStyle.Flat;
             btnmenu.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btnmenu.ForeColor = SystemColors.ButtonFace;
+            btnmenu.Image = TiendaMusica.Properties.Resources.icons8_menú_20;
             btnmenu.ImageAlign = ContentAlignment.MiddleLeft;
             btnmenu.Location = new Point(-20, -3);
             btnmenu.Margin = new Padding(4, 5, 4, 5);
@@ -267,6 +319,7 @@
             pnlbar.Name = "pnlbar";
             pnlbar.Size = new Size(1197, 54);
             pnlbar.TabIndex = 1;
+            pnlbar.MouseMove += pnlbar_MouseMove;
             // 
             // panel8
             // 
@@ -280,6 +333,7 @@
             // 
             button3.Dock = DockStyle.Right;
             button3.FlatStyle = FlatStyle.Flat;
+            button3.Image = TiendaMusica.Properties.Resources.icons8_minimizar_30;
             button3.Location = new Point(1119, 0);
             button3.Margin = new Padding(4, 5, 4, 5);
             button3.Name = "button3";
@@ -292,6 +346,7 @@
             // 
             button2.Dock = DockStyle.Right;
             button2.FlatStyle = FlatStyle.Flat;
+            button2.Image = TiendaMusica.Properties.Resources.icons8_cerrar_ventana_30;
             button2.Location = new Point(1158, 0);
             button2.Margin = new Padding(4, 5, 4, 5);
             button2.Name = "button2";
@@ -324,9 +379,9 @@
             Text = " ";
             Load += Form1_Load;
             sidebar.ResumeLayout(false);
-            pnlsalir.ResumeLayout(false);
             pnlinfo.ResumeLayout(false);
             pnlayuda.ResumeLayout(false);
+            pnlsalir.ResumeLayout(false);
             pnlcompra.ResumeLayout(false);
             pnlhome.ResumeLayout(false);
             pnlmenu.ResumeLayout(false);
@@ -344,7 +399,6 @@
         private Button btncompra;
         private Panel pnlinfo;
         private Panel pnlayuda;
-        private Button btnayuda;
         private Button btninformacion;
         private Panel pnlsalir;
         private Button btnsalir;
@@ -355,6 +409,9 @@
         private Button button3;
         private Panel panel8;
         private Panel pnlhijos;
+        private Button button4;
+        private Button button1;
+        private Button btnayuda;
     }
 }
 

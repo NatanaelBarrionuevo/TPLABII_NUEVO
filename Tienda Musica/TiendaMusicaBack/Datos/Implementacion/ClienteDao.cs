@@ -108,7 +108,7 @@ namespace TiendaMusicaBack.Datos.Implementacion
 
                     lista.Add(new Cliente(row["APELLIDO"].ToString(), row["NOMBRE"].ToString(), new Barrio() { Nombre = row["BARRIO"].ToString() }, Convert.ToInt32(row["ID"]))
                     {
-                        Telefono = Convert.ToInt32(row["TELEFONO"]),
+                        Telefono = (row["TELEFONO"].ToString()),
                         Email = row["EMAIL"].ToString()
                     });
                 }

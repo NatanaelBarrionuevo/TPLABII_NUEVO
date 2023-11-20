@@ -25,6 +25,7 @@ namespace TiendaMusica.Carga
         private void ABMEmpleado_Load(object sender, EventArgs e)
         {
             CargarCombos();
+            //centerdtp();
         }
 
         private void CargarCombos()
@@ -33,15 +34,15 @@ namespace TiendaMusica.Carga
             List<Puesto> puestos = servicio.ConsultarPuestos();
             foreach (Puesto b in puestos)
             {
-                cboPuesto.Items.Add(puestos);
+                cboPuesto.Items.Add(b);
             }
             cboPuesto.SelectedIndex = 0;
 
             cboSede.Items.Clear();
             List<Sede> sedes = servicio.ConsultarSedes();
-            foreach (Puesto b in puestos)
+            foreach (Sede b in sedes)
             {
-                cboSede.Items.Add(sedes);
+                cboSede.Items.Add(b);
             }
             cboSede.SelectedIndex = 0;
         }
@@ -52,7 +53,7 @@ namespace TiendaMusica.Carga
             {
                 string apellido = txtApellido.Text;
                 string nombre = txtNombre.Text;
-                int telefono = Convert.ToInt32(txtTelefono.Text);
+                string telefono = (txtTelefono.Text);
                 Sede sede = (Sede)cboSede.SelectedItem;
                 Puesto puesto = (Puesto)cboPuesto.SelectedItem;
                 DateTime fecha_ingreso = dtpFechaIngreso.Value;

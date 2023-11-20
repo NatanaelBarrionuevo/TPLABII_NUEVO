@@ -46,7 +46,8 @@
             txtPrecio = new TextBox();
             btnAtras = new Button();
             btnGrabar = new Button();
-            button1 = new Button();
+            btnCaracteristicas = new Button();
+            gbCaracteristicas = new GroupBox();
             gbNombre.SuspendLayout();
             gbDescripcion.SuspendLayout();
             gbTipoProducto.SuspendLayout();
@@ -55,6 +56,7 @@
             gbPais.SuspendLayout();
             gbStock.SuspendLayout();
             gbPrecio.SuspendLayout();
+            gbCaracteristicas.SuspendLayout();
             SuspendLayout();
             // 
             // gbNombre
@@ -227,22 +229,34 @@
             btnGrabar.UseVisualStyleBackColor = true;
             btnGrabar.Click += btnGrabar_Click;
             // 
-            // button1
+            // btnCaracteristicas
             // 
-            button1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button1.Location = new Point(518, 345);
-            button1.Name = "button1";
-            button1.Size = new Size(162, 47);
-            button1.TabIndex = 12;
-            button1.Text = "Caracteristicas";
-            button1.UseVisualStyleBackColor = true;
+            btnCaracteristicas.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            btnCaracteristicas.Image = Properties.Resources.icons8_insertar_página_20;
+            btnCaracteristicas.Location = new Point(41, 29);
+            btnCaracteristicas.Name = "btnCaracteristicas";
+            btnCaracteristicas.Size = new Size(61, 47);
+            btnCaracteristicas.TabIndex = 12;
+            btnCaracteristicas.Text = "+";
+            btnCaracteristicas.UseVisualStyleBackColor = true;
+            btnCaracteristicas.Click += btnCaracteristicas_Click;
+            // 
+            // gbCaracteristicas
+            // 
+            gbCaracteristicas.Controls.Add(btnCaracteristicas);
+            gbCaracteristicas.Location = new Point(538, 316);
+            gbCaracteristicas.Name = "gbCaracteristicas";
+            gbCaracteristicas.Size = new Size(142, 100);
+            gbCaracteristicas.TabIndex = 13;
+            gbCaracteristicas.TabStop = false;
+            gbCaracteristicas.Text = "Agregar Caracteristicas";
             // 
             // ABMProducto
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(818, 428);
-            Controls.Add(button1);
+            Controls.Add(gbCaracteristicas);
             Controls.Add(btnGrabar);
             Controls.Add(btnAtras);
             Controls.Add(gbPrecio);
@@ -268,6 +282,7 @@
             gbStock.PerformLayout();
             gbPrecio.ResumeLayout(false);
             gbPrecio.PerformLayout();
+            gbCaracteristicas.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -291,6 +306,7 @@
         private TextBox txtPrecio;
         private Button btnAtras;
         private Button btnGrabar;
-        private Button button1;
+        private Button btnCaracteristicas;
+        private GroupBox gbCaracteristicas;
     }
 }

@@ -25,3 +25,39 @@ C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\TindaMusica\TiendaMusicaBack\obj\Debug\
 C:\Users\Usuario\Desktop\TPLABII_NUEVO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.dll
 C:\Users\Usuario\Desktop\TPLABII_NUEVO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\refint\TiendaMusicaBack.dll
 C:\Users\Usuario\Desktop\TPLABII_NUEVO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.pdb
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.deps.json
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.dll
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.pdb
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.dll
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\refint\TiendaMusicaBack.dll
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.pdb
+C:\Users\Usuario\Desktop\TPLABRULO\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\ref\TiendaMusicaBack.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.deps.json
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.pdb
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.csproj.AssemblyReference.cache
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.AssemblyInfoInputs.cache
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.AssemblyInfo.cs
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.csproj.CoreCompileInputs.cache
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\refint\TiendaMusicaBack.dll
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.pdb
+C:\Users\Luca's pc\Desktop\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\ref\TiendaMusicaBack.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.deps.json
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.pdb
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\refint\TiendaMusicaBack.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.pdb
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\ref\TiendaMusicaBack.dll

@@ -1,36 +1,18 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "AvjgVq64LyVC12SUit7ktIpwIfxUln612Bt0dn3Q0xvhaqKkbRBi7AuX7IciBzIhLZLVudavN5VWQTKVwQq1WA==",
+  "dgSpecHash": "5JsIJ1hln7Xqp4K5+IlxjKwzQLtHohR4nuSzwIszXHTVkxR7GUrZ3RPnJqBxB5RlKS3ybXbFt1VmNNNzmNL5WQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\TPLAB\\TPLABII_NUEVO\\Tienda Musica\\TiendaMusicaBack\\TiendaMusicaBack.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\TPLABII_NUEVO-main\\Tienda Musica\\TiendaMusicaBack\\TiendaMusicaBack.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": []
-=======
-  "dgSpecHash": "50wBvvNFV0s85xiWBYtqdumc9I52GjaiDOT6VjMDdSnQCeAkx0MZOpkc5azps1WbNSa8E86ech401NAmpE+hJQ==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\TPLABII_NUEVO\\TPLABII_NUEVO\\Tienda Musica\\TiendaMusicaBack\\TiendaMusicaBack.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "No se encuentra el paquete System.Data.SqlClient. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
-      "libraryId": "System.Data.SqlClient",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
->>>>>>> 666702e34e4cc8fc3892bb73fcd030ac2154f8e2
 }

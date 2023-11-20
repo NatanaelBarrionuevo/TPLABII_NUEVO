@@ -91,5 +91,10 @@ namespace TiendaMusicaBack.Enitidades
         {
             
         }
+
+        public override string ToString()
+        {
+            return ($"{id} - {Nombre} ");
+        }
     }
 }

@@ -24,5 +24,10 @@ namespace TiendaMusicaBack.Enitidades
 			set { id = value; }
 		}
 
-	}
+        public override string ToString()
+        {
+            return Descripcion;
+        }
+
+    }
 }

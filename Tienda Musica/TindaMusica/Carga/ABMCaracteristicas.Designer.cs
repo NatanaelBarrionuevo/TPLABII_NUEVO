@@ -85,6 +85,7 @@
             lstProducto.Name = "lstProducto";
             lstProducto.Size = new Size(318, 289);
             lstProducto.TabIndex = 7;
+            lstProducto.SelectedIndexChanged += lstProducto_SelectedIndexChanged;
             // 
             // gbProducto
             // 
@@ -104,6 +105,7 @@
             btnAgregar.TabIndex = 9;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // btnSalir
             // 
@@ -113,6 +115,7 @@
             btnSalir.TabIndex = 10;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
             // ABMCaracteristicas
             // 
@@ -126,6 +129,7 @@
             Controls.Add(gbDetalle);
             Name = "ABMCaracteristicas";
             Text = "ABMCaracteristicas";
+            Load += ABMCaracteristicas_Load;
             gbDetalle.ResumeLayout(false);
             gbDetalle.PerformLayout();
             gbTipoCaracteristica.ResumeLayout(false);

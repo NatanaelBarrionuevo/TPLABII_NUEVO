@@ -10,7 +10,7 @@ namespace TiendaMusicaBack.Enitidades
     {
         private string nombre;
         private string apellido;
-        private int telefono;
+        private string telefono;
         private string email;
         private Barrio barrio;
         private string calle;
@@ -36,7 +36,7 @@ namespace TiendaMusicaBack.Enitidades
             set { barrio = value; }
         }
 
-        public int Telefono
+        public string Telefono
         {
             get { return telefono; }
             set { telefono = value; }

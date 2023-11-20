@@ -143,7 +143,7 @@ namespace TiendaMusicaBack.Datos.Implementacion
                         Sede = new Sede() { Nombre = row["SEDE"].ToString() },
                         Legajo = Convert.ToInt32(row["LEGAJO"]),
                         Puesto = new Puesto() { Descripcion = row["PUESTO"].ToString() },
-                        Telefono = Convert.ToInt32(row["TELEFONO"])
+                        Telefono = row["TELEFONO"].ToString()
                     });
                 }
 

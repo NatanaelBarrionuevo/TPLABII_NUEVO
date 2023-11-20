@@ -1,4 +1,6 @@
 using menuslide;
+using TiendaMusica;
+using TiendaMusica.Carga;
 using TindaMusica.Venta;
 namespace TindaMusica
 {
@@ -13,7 +15,7 @@ namespace TindaMusica
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new informacion());
+            Application.Run(new Form1());
         }
     }
 }
