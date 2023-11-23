@@ -42,11 +42,12 @@
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { año, mes, total, promedio, promedioPrecios });
-            dataGridView1.Location = new Point(12, 90);
+            dataGridView1.Location = new Point(12, 11);
+            dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(690, 319);
+            dataGridView1.Size = new Size(554, 316);
             dataGridView1.TabIndex = 0;
             // 
             // año
@@ -54,42 +55,43 @@
             año.HeaderText = "Año";
             año.MinimumWidth = 6;
             año.Name = "año";
-            año.Width = 125;
+            año.Width = 50;
             // 
             // mes
             // 
             mes.HeaderText = "Mes";
             mes.MinimumWidth = 6;
             mes.Name = "mes";
-            mes.Width = 125;
+            mes.Width = 50;
             // 
             // total
             // 
             total.HeaderText = "Total facturado";
             total.MinimumWidth = 6;
             total.Name = "total";
-            total.Width = 125;
+            total.Width = 130;
             // 
             // promedio
             // 
             promedio.HeaderText = "Promedio facturado";
             promedio.MinimumWidth = 6;
             promedio.Name = "promedio";
-            promedio.Width = 125;
+            promedio.Width = 140;
             // 
             // promedioPrecios
             // 
             promedioPrecios.HeaderText = "Promedio Precios";
             promedioPrecios.MinimumWidth = 6;
             promedioPrecios.Name = "promedioPrecios";
-            promedioPrecios.Width = 125;
+            promedioPrecios.Width = 130;
             // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(575, 338);
             Controls.Add(dataGridView1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form2";
             Text = "Form2";
             Load += Form2_Load;

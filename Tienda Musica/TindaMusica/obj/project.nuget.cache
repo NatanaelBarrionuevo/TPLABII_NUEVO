@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1tGnVBwZflM7hm30+H7IW3nuhofppvUkneipnEpOksgn6Crbu1SPzzCjxvAhrtQNdWWIXy9Gqt1e5JLXOQFnAg==",
+  "dgSpecHash": "SyPVYJAIFiutALN9e7C3jtx/hg050Ubd8PI2cwYlCSNKXtSJuDZL+Oa8ut8N5cMgp8PtME0816vewFDDHK+bEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\TPLABII_NUEVO-main\\Tienda Musica\\TindaMusica\\TiendaMusica.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\TUP\\2do Cuatrimestre\\LCII\\TPI\\Entrega 3\\Git\\TPLABII_NUEVO\\Tienda Musica\\TindaMusica\\TiendaMusica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -30,12 +30,6 @@
         {
             label2 = new Label();
             dgvDetalleServicio = new DataGridView();
-            servicio = new DataGridViewTextBoxColumn();
-            luthier = new DataGridViewTextBoxColumn();
-            horas = new DataGridViewTextBoxColumn();
-            precio = new DataGridViewTextBoxColumn();
-            subtotal = new DataGridViewTextBoxColumn();
-            quitar = new DataGridViewButtonColumn();
             cboServicios = new ComboBox();
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
@@ -48,6 +42,12 @@
             lblTotal = new Label();
             label4 = new Label();
             label3 = new Label();
+            servicio = new DataGridViewTextBoxColumn();
+            luthier = new DataGridViewTextBoxColumn();
+            horas = new DataGridViewTextBoxColumn();
+            precio = new DataGridViewTextBoxColumn();
+            subtotal = new DataGridViewTextBoxColumn();
+            quitar = new DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)dgvDetalleServicio).BeginInit();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -79,48 +79,6 @@
             dgvDetalleServicio.Size = new Size(688, 242);
             dgvDetalleServicio.TabIndex = 6;
             dgvDetalleServicio.CellContentClick += dgvDetalleServicio_CellContentClick;
-            // 
-            // servicio
-            // 
-            servicio.HeaderText = "Servicio";
-            servicio.MinimumWidth = 6;
-            servicio.Name = "servicio";
-            servicio.Width = 125;
-            // 
-            // luthier
-            // 
-            luthier.HeaderText = "Luthier";
-            luthier.MinimumWidth = 6;
-            luthier.Name = "luthier";
-            luthier.Width = 125;
-            // 
-            // horas
-            // 
-            horas.HeaderText = "Horas";
-            horas.MinimumWidth = 6;
-            horas.Name = "horas";
-            horas.Width = 125;
-            // 
-            // precio
-            // 
-            precio.HeaderText = "Precio";
-            precio.MinimumWidth = 6;
-            precio.Name = "precio";
-            precio.Width = 125;
-            // 
-            // subtotal
-            // 
-            subtotal.HeaderText = "Subtotal";
-            subtotal.MinimumWidth = 6;
-            subtotal.Name = "subtotal";
-            subtotal.Width = 125;
-            // 
-            // quitar
-            // 
-            quitar.HeaderText = "Quitar";
-            quitar.MinimumWidth = 6;
-            quitar.Name = "quitar";
-            quitar.Width = 125;
             // 
             // cboServicios
             // 
@@ -253,6 +211,47 @@
             label3.TabIndex = 13;
             label3.Text = "Total Servicios: $";
             // 
+            // servicio
+            // 
+            servicio.HeaderText = "Servicio";
+            servicio.MinimumWidth = 6;
+            servicio.Name = "servicio";
+            servicio.Width = 150;
+            // 
+            // luthier
+            // 
+            luthier.HeaderText = "Luthier";
+            luthier.MinimumWidth = 6;
+            luthier.Name = "luthier";
+            luthier.Width = 150;
+            // 
+            // horas
+            // 
+            horas.HeaderText = "Horas";
+            horas.MinimumWidth = 6;
+            horas.Name = "horas";
+            horas.Width = 80;
+            // 
+            // precio
+            // 
+            precio.HeaderText = "Precio";
+            precio.MinimumWidth = 6;
+            precio.Name = "precio";
+            precio.Width = 80;
+            // 
+            // subtotal
+            // 
+            subtotal.HeaderText = "Subtotal";
+            subtotal.MinimumWidth = 6;
+            subtotal.Name = "subtotal";
+            // 
+            // quitar
+            // 
+            quitar.HeaderText = "Quitar";
+            quitar.MinimumWidth = 6;
+            quitar.Name = "quitar";
+            quitar.Width = 70;
+            // 
             // frmVentaServicios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -292,17 +291,17 @@
         private ComboBox cboLuthier;
         private GroupBox groupBox3;
         private Button btnAgregar;
-        private DataGridViewTextBoxColumn servicio;
-        private DataGridViewTextBoxColumn luthier;
-        private DataGridViewTextBoxColumn horas;
-        private DataGridViewTextBoxColumn precio;
-        private DataGridViewTextBoxColumn subtotal;
-        private DataGridViewButtonColumn quitar;
         private NumericUpDown nmcHoras;
         private GroupBox groupBox4;
         private NumericUpDown nmcPrecio;
         private Label lblTotal;
         private Label label4;
         private Label label3;
+        private DataGridViewTextBoxColumn servicio;
+        private DataGridViewTextBoxColumn luthier;
+        private DataGridViewTextBoxColumn horas;
+        private DataGridViewTextBoxColumn precio;
+        private DataGridViewTextBoxColumn subtotal;
+        private DataGridViewButtonColumn quitar;
     }
 }

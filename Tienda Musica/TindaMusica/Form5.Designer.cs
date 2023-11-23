@@ -56,7 +56,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(604, 239);
+            dataGridView1.Size = new Size(455, 239);
             dataGridView1.TabIndex = 3;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -79,13 +79,13 @@
             Column2.HeaderText = "Promedio";
             Column2.MinimumWidth = 6;
             Column2.Name = "Column2";
-            Column2.Width = 125;
+            Column2.Width = 150;
             // 
             // Form5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(700, 338);
+            ClientSize = new Size(511, 314);
             Controls.Add(label1);
             Controls.Add(dataGridView1);
             Margin = new Padding(3, 2, 3, 2);

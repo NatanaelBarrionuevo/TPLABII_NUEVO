@@ -23,7 +23,7 @@ namespace TindaMusica.Venta
         List<DetaleFactura> detalleFactura;
         Factura factura;
         IProductoDao productoDao;
-        public frmVentaProductos(Factura factura )
+        public frmVentaProductos(Factura factura)
         {
             InitializeComponent();
             this.factura = factura;

@@ -61,3 +61,15 @@ C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO
 C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\refint\TiendaMusicaBack.dll
 C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.pdb
 C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\TPLABII_NUEVO-main\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\ref\TiendaMusicaBack.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\Git\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.deps.json
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\Git\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\Git\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\bin\Debug\net6.0\TiendaMusicaBack.pdb
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\Git\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\Git\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\Git\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\Git\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\Git\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\Git\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\Git\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\refint\TiendaMusicaBack.dll
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\Git\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\TiendaMusicaBack.pdb
+C:\Users\USUARIO\Documents\TUP\2do Cuatrimestre\LCII\TPI\Entrega 3\Git\TPLABII_NUEVO\Tienda Musica\TiendaMusicaBack\obj\Debug\net6.0\ref\TiendaMusicaBack.dll
